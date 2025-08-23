@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>OrtoCharcos.tif</Title>
+      <Title>OrtoCharcosUnVuelo.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="-1.70150130435312" miny="38.64739465682130" maxx="-1.69742820325020" maxy="38.65019830033770"/>
-      <Origin x="-1.70150130435312" y="38.64739465682130"/>
+      <BoundingBox minx="-1.70076733437194" miny="38.64758244145276" maxx="-1.69741594331019" maxy="38.64974278764036"/>
+      <Origin x="-1.70076733437194" y="38.64758244145276"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="mercator">
         <TileSet href="16" units-per-pixel="2.38865713348389" order="16"/>

@@ -57,7 +57,7 @@
         <script src="js/leaflet-measure.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:false, maxZoom:21, minZoom:1
+            zoomControl:false, maxZoom:21, minZoom:18
         }).fitBounds([[38.64669232656311,-1.7040564368444395],[38.65078448024965,-1.694582263937568]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://www.linkedin.com/in/eduardo-bueno-0437a21a7/" target="_blank">LinkedIn</a>');
@@ -112,7 +112,7 @@
             pane: 'pane_GoogleHybrid_0',
             opacity: 1.0,
             attribution: '<a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>',
-            minZoom: 1,
+            minZoom: 14,
             maxZoom: 21,
             minNativeZoom: 0,
             maxNativeZoom: 20
@@ -124,12 +124,18 @@
         var layer_Ortofoto_1 = L.tileLayer('./images/{z}/{x}/{y}.png', {
     pane: 'pane_Ortofoto_1',
     tms: true,
-    opacity: 0.7,
+    opacity: 0.9,
     attribution: "",
-    minZoom: 16,
-    maxZoom: 21,
+    minZoom: 14,
+    maxZoom: 24,
     transparent: true
 });
+
+
+
+
+
+
 map.addLayer(layer_Ortofoto_1);
 
 // ---- Opacity slider for Ortofoto ----
